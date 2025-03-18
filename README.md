@@ -14,39 +14,50 @@ This project is a demonstration of using **Node.js, Express.js, and JSON** to bu
 - **Postman** (for testing API requests)  
 
 ## Installation and Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/samisadevpro/jsassignment3.git
-   cd jsassignment
-Install dependencies:
 
-sh
-Copy
-Edit
+### 1. Clone the Repository:
+```sh
+git clone https://github.com/samisadevpro/jsassignment3.git
+cd jsassignment3
+```
+
+### 2. Install Dependencies:
+```sh
 npm install
-Run the server with Nodemon:
+```
 
-sh
-Copy
-Edit
+### 3. Run the Server with Nodemon:
+```sh
 npm start
-Open your browser and visit:
+```
 
-arduino
-Copy
-Edit
-http://localhost:3000
-API Endpoints
-Method	Endpoint	Description
-GET	/	Displays group names
-GET	/data	Returns JSON file content
-POST	/add	Adds a new entry
-PUT	/update/:id	Updates an entry
-DELETE	/delete/:id	Deletes an entry
-Testing with Postman
-Start the server (npm start).
-Open Postman and send requests to http://localhost:3000.
-Capture a screenshot of successful CRUD operations for submission.
-Author
-Samartha Rawal
-Prakriti Karki
+### 4. Open in Browser:
+[http://localhost:3000](http://localhost:3000)
+
+---
+
+## API Endpoints
+
+| Method  | Endpoint        | Description                |
+|---------|----------------|----------------------------|
+| GET     | `/`            | Displays group names      |
+| GET     | `/data`        | Returns JSON file content |
+| POST    | `/add`         | Adds a new entry          |
+| PUT     | `/update/:id`  | Updates an entry          |
+| DELETE  | `/delete/:id`  | Deletes an entry          |
+
+---
+
+## Testing with Postman  
+1. Start the server:  
+   ```sh
+   npm start
+   ```
+2. Open **Postman** and send requests to `http://localhost:3000`.
+3. Capture a screenshot of successful CRUD operations for submission.
+
+---
+
+### **Author**  
+- **Samartha Rawal**  
+- **Prakriti Karki**
