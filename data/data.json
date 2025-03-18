@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Espresso",
+    "price": 5,
+    "category": "Coffee"
+  },
+  {
+    "id": 2,
+    "name": "Cappuccino",
+    "price": 6,
+    "category": "Coffee"
+  },
+  {
+    "id": 4,
+    "name": "Green Tea",
+    "price": 4,
+    "category": "Tea"
+  },
+  {
+    "id": 5,
+    "name": "Black Tea",
+    "price": 3,
+    "category": "Tea"
+  },
+  {
+    "id": 6,
+    "name": "Mocha",
+    "price": 8,
+    "category": "Coffee"
+  },
+  {
+    "id": null
+  }
+]
