@@ -20,7 +20,7 @@ This project is a demonstration of using **Node.js, Express.js, and JSON** to bu
 1. Clone the repository:
    ```sh
    git clone https://github.com/samisadevpro/jsassignment3.git
-   cd jjsassignment3
+   cd jsassignment3
    Install dependencies:
    ```
 
